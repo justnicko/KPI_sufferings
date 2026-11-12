@@ -1,8 +1,8 @@
 def print_in_order(keys, dict1):
-    print("MENU")
+    print(" MENU ".center(30, '='))
     for k in keys:
         print(f"{k}: {dict1[k]}")
-    print("="*25)
+    print("="*30)
 
 menu = {
     "Borscht": 79,
